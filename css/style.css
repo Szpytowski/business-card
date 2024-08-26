@@ -91,17 +91,6 @@ div {
   border-top: 2px solid white;
 }
 
-.contact-item::after {
-  content: "";
-  display: block;
-  width: calc(100% - 30px);
-  height: 1px;
-  background-color: var(--semi-transparent-white);
-  position: absolute;
-  bottom: 3px;
-  left: 38px;
-}
-
 .contact-info {
   width: 100%;
   max-width: 400px;
@@ -138,3 +127,7 @@ div {
   margin-bottom: 0;
 }
 
+.text {
+  border-bottom: 1px solid var(--semi-transparent-white);
+  width: 100%;
+}
